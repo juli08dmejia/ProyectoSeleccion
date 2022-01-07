@@ -1,0 +1,43 @@
+  {% extends "ProyectoSeleccionApp/base.html" %}
+
+  {% load static %}
+
+      {% block content %}
+       <!-- Heading -->
+       <section class="page-section clearfix">
+        <div class="container">
+          <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoSeleccionApp/img/entrega.jpg' %}" alt="">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+              <h2 class="section-heading mb-4" >
+                <span class="section-heading-upper">Productos de Limpieza</span>
+                <span class="section-heading-lower">de la mejor Calidad</span>
+              </h2>
+              <p class="mb-3">Productos que cumplen con lo más altos estándares de calidad
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+        <!-- Message -->
+        <section class="page-section cta">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 mx-auto">
+                <div class="cta-inner text-center rounded">
+                  <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Compromiso total</span>
+                    <span class="section-heading-lower">Garantizado</span>
+                  </h2>
+                  <p class="mb-0">Somos una empresa innovadora con los mejores productos de limpieza, contamos con el mayor conocimiento para la fabricación de productos de limpieza de la más alta calidad</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    {% endblock %}
